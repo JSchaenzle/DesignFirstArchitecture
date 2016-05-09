@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		940C9EF71CDF899C007279CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9EF61CDF899C007279CC /* AppDelegate.swift */; };
 		940C9EF91CDF899C007279CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9EF81CDF899C007279CC /* ViewController.swift */; };
-		940C9EFC1CDF899C007279CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940C9EFA1CDF899C007279CC /* Main.storyboard */; };
 		940C9EFE1CDF899C007279CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940C9EFD1CDF899C007279CC /* Assets.xcassets */; };
 		940C9F011CDF899C007279CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940C9EFF1CDF899C007279CC /* LaunchScreen.storyboard */; };
 		940C9F0C1CDF899C007279CC /* DesignFirstMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9F0B1CDF899C007279CC /* DesignFirstMobileTests.swift */; };
 		940C9F171CDF899C007279CC /* DesignFirstMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9F161CDF899C007279CC /* DesignFirstMobileUITests.swift */; };
+		940C9F291CDF9F30007279CC /* CommonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9F281CDF9F30007279CC /* CommonStyle.swift */; };
+		940C9F2C1CDF9F4F007279CC /* StyleUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9F2B1CDF9F4F007279CC /* StyleUtils.swift */; };
+		940C9F2E1CDF9F67007279CC /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9F2D1CDF9F67007279CC /* DashboardViewController.swift */; };
+		940C9F331CDFCEF9007279CC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C9F321CDFCEF9007279CC /* DashboardView.swift */; };
+		945F800C1CDFD71F005C3A77 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945F800B1CDFD71F005C3A77 /* SnapKit.framework */; };
+		945F800E1CDFD836005C3A77 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F800D1CDFD836005C3A77 /* NavigationCoordinator.swift */; };
+		AD9BB09BDE02039FAF4976FF /* MasterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9BBD5BAB74FB59ED6CC8BB /* MasterStyle.swift */; };
+		AD9BB237402041949227C766 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9BB3B773F143051DA5AC8D /* BaseView.swift */; };
+		AD9BB9AE646B79952C3F8064 /* DashboardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9BBEAF8EE68258ACD50D43 /* DashboardStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,6 @@
 		940C9EF31CDF899C007279CC /* DesignFirstMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignFirstMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940C9EF61CDF899C007279CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		940C9EF81CDF899C007279CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		940C9EFB1CDF899C007279CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		940C9EFD1CDF899C007279CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940C9F001CDF899C007279CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		940C9F021CDF899C007279CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		940C9F121CDF899C007279CC /* DesignFirstMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignFirstMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940C9F161CDF899C007279CC /* DesignFirstMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignFirstMobileUITests.swift; sourceTree = "<group>"; };
 		940C9F181CDF899C007279CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940C9F281CDF9F30007279CC /* CommonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonStyle.swift; sourceTree = "<group>"; };
+		940C9F2B1CDF9F4F007279CC /* StyleUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleUtils.swift; sourceTree = "<group>"; };
+		940C9F2D1CDF9F67007279CC /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		940C9F321CDFCEF9007279CC /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		945F800B1CDFD71F005C3A77 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		945F800D1CDFD836005C3A77 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		AD9BB3B773F143051DA5AC8D /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AD9BBD5BAB74FB59ED6CC8BB /* MasterStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterStyle.swift; sourceTree = "<group>"; };
+		AD9BBEAF8EE68258ACD50D43 /* DashboardStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945F800C1CDFD71F005C3A77 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,7 @@
 		940C9EEA1CDF899C007279CC = {
 			isa = PBXGroup;
 			children = (
+				945F800B1CDFD71F005C3A77 /* SnapKit.framework */,
 				940C9EF51CDF899C007279CC /* DesignFirstMobile */,
 				940C9F0A1CDF899C007279CC /* DesignFirstMobileTests */,
 				940C9F151CDF899C007279CC /* DesignFirstMobileUITests */,
@@ -97,12 +115,16 @@
 		940C9EF51CDF899C007279CC /* DesignFirstMobile */ = {
 			isa = PBXGroup;
 			children = (
+				940C9F2F1CDF9FEA007279CC /* CommonView */,
+				940C9F2A1CDF9F37007279CC /* CommonStyle */,
+				940C9F271CDF9EF3007279CC /* Dashboard */,
+				940C9F261CDF9ECD007279CC /* Settings */,
 				940C9EF61CDF899C007279CC /* AppDelegate.swift */,
 				940C9EF81CDF899C007279CC /* ViewController.swift */,
-				940C9EFA1CDF899C007279CC /* Main.storyboard */,
 				940C9EFD1CDF899C007279CC /* Assets.xcassets */,
 				940C9EFF1CDF899C007279CC /* LaunchScreen.storyboard */,
 				940C9F021CDF899C007279CC /* Info.plist */,
+				945F800D1CDFD836005C3A77 /* NavigationCoordinator.swift */,
 			);
 			path = DesignFirstMobile;
 			sourceTree = "<group>";
@@ -125,6 +147,41 @@
 			path = DesignFirstMobileUITests;
 			sourceTree = "<group>";
 		};
+		940C9F261CDF9ECD007279CC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		940C9F271CDF9EF3007279CC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				940C9F2D1CDF9F67007279CC /* DashboardViewController.swift */,
+				940C9F321CDFCEF9007279CC /* DashboardView.swift */,
+				AD9BBEAF8EE68258ACD50D43 /* DashboardStyle.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		940C9F2A1CDF9F37007279CC /* CommonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				940C9F281CDF9F30007279CC /* CommonStyle.swift */,
+				940C9F2B1CDF9F4F007279CC /* StyleUtils.swift */,
+			);
+			name = CommonStyle;
+			sourceTree = "<group>";
+		};
+		940C9F2F1CDF9FEA007279CC /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				AD9BB3B773F143051DA5AC8D /* BaseView.swift */,
+				AD9BBD5BAB74FB59ED6CC8BB /* MasterStyle.swift */,
+			);
+			name = CommonView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +192,7 @@
 				940C9EEF1CDF899C007279CC /* Sources */,
 				940C9EF01CDF899C007279CC /* Frameworks */,
 				940C9EF11CDF899C007279CC /* Resources */,
+				940C9F3A1CDFD37C007279CC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -231,7 +289,6 @@
 			files = (
 				940C9F011CDF899C007279CC /* LaunchScreen.storyboard in Resources */,
 				940C9EFE1CDF899C007279CC /* Assets.xcassets in Resources */,
-				940C9EFC1CDF899C007279CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +308,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		940C9F3A1CDFD37C007279CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		940C9EEF1CDF899C007279CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940C9F291CDF9F30007279CC /* CommonStyle.swift in Sources */,
+				940C9F2C1CDF9F4F007279CC /* StyleUtils.swift in Sources */,
+				945F800E1CDFD836005C3A77 /* NavigationCoordinator.swift in Sources */,
+				940C9F2E1CDF9F67007279CC /* DashboardViewController.swift in Sources */,
+				940C9F331CDFCEF9007279CC /* DashboardView.swift in Sources */,
 				940C9EF91CDF899C007279CC /* ViewController.swift in Sources */,
 				940C9EF71CDF899C007279CC /* AppDelegate.swift in Sources */,
+				AD9BB237402041949227C766 /* BaseView.swift in Sources */,
+				AD9BB9AE646B79952C3F8064 /* DashboardStyle.swift in Sources */,
+				AD9BB09BDE02039FAF4976FF /* MasterStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +375,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		940C9EFA1CDF899C007279CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				940C9EFB1CDF899C007279CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		940C9EFF1CDF899C007279CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -335,6 +409,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -381,6 +456,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -401,6 +477,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = DesignFirstMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JTS.DesignFirstMobile;
@@ -412,6 +493,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = DesignFirstMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JTS.DesignFirstMobile;
@@ -484,6 +570,7 @@
 				940C9F1D1CDF899C007279CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940C9F1E1CDF899C007279CC /* Build configuration list for PBXNativeTarget "DesignFirstMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +579,7 @@
 				940C9F201CDF899C007279CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940C9F211CDF899C007279CC /* Build configuration list for PBXNativeTarget "DesignFirstMobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +588,7 @@
 				940C9F231CDF899C007279CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
